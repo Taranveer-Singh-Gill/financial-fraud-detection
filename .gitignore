@@ -218,3 +218,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================
+# Financial Fraud Detection Project
+# ==========================================
+
+# Raw and processed datasets
+data/raw/
+data/processed/
+
+# Trained machine learning models
+models/
+
+# MLflow experiment tracking
+mlruns/
+mlartifacts/
+
+# Additional environment files
+.env.*
+!.env.example
+
+# macOS files
+.DS_Store
