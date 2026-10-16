@@ -240,3 +240,7 @@ mlartifacts/
 
 # macOS files
 .DS_Store
+
+# Jupyter temporary files
+.virtual_documents/
+.ipynb_checkpoints/
