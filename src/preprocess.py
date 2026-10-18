@@ -1,3 +1,4 @@
+from sklearn.preprocessing import StandardScaler
 
 from pathlib import Path
 from sklearn.compose import ColumnTransformer
@@ -132,7 +133,8 @@ def prepare_model_data(train_df, val_df):
         ("imputer", SimpleImputer(
             strategy="median",
             keep_empty_features=True
-        ))
+        )),
+        ("scaler", StandardScaler())
     ])
 
     categorical_pipeline = Pipeline([
