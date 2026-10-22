@@ -244,3 +244,5 @@ mlartifacts/
 # Jupyter temporary files
 .virtual_documents/
 .ipynb_checkpoints/
+# Unused scratch notebook
+/Untitled.ipynb
